@@ -5,6 +5,7 @@ public class Rock extends Tool{
 	
 	public Rock(int strength) {
 		super();
+		this.setStrength(strength);
 		this.setType('r');
 	}
 	

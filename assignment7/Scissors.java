@@ -4,6 +4,7 @@ public class Scissors extends Tool{
 
 	public Scissors(int strength) {
 		super();
+		this.setStrength(strength);
 		this.setType('s');
 	}
 
@@ -18,7 +19,7 @@ public class Scissors extends Tool{
 	public boolean fight(Paper p) {
 		int s_strength = this.getStrength()*2;
 		int p_strength = p.getStrength();
-		
+		System.out.println(s_strength);
 		return s_strength > p_strength ? true : false;
 	}
 }

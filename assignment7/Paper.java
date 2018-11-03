@@ -4,6 +4,7 @@ public class Paper extends Tool{
 	
 	public Paper(int strength) {
 		super();
+		this.setStrength(strength);
 		this.setType('p');
 	}
 	
